@@ -5,7 +5,7 @@ Este é meu portfólio pessoal desenvolvido com foco em responsividade, organiza
 O projeto apresenta minhas habilidades, tecnologias que utilizo e alguns dos meus principais projetos.
 ## 📸 Preview
 
-<img src="img/Portfólio-Luan-Gabriel" width="100%">
+<img src="img/Portfólio-Luan-Gabriel.png" width="100%">
 ---
 
 ## 🛠️ Tecnologias Utilizadas
