@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <title>Portfólio Luan Gabriel</title>
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <nav class="navegacao">
+        <div class="menu_toggle" id = "menu_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu" id = "menu">
+            <li><a href="#home" class="menu_link">Home</a></li>
+            <li><a href="#sobre" class="menu_link">Sobre</a></li>
+            <li><a href="#skills" class="menu_link">Skills</a></li>
+            <li><a href="#projetos" class="menu_link">Projetos</a></li>
+            <li><a href="#contato" class="menu_link">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- HOME -->
+    <main class="cabecalho" id="home">
+
+        <img src="img/Foto Digital.jpg" class="foto_perfil" alt="foto perfil">
+
+        <h1 class="titulo_principal">Luan Gabriel Dantas</h1>
+
+        <p class="paragrafo_subtitulo">
+            Estudante de Engenharia de Software | Desenvolvedor Back-end Java
+        </p>
+
+        <div class="social_buttons">
+
+            <a href="https://github.com/LuanGabrielDEV" target="_blank" class="btn_social github">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/luangabrieldev/" target="_blank" class="btn_social linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre">
+
+        <h2 class="sobre_titulo">Sobre Mim</h2>
+
+        <div class="sobre_caixa">
+
+            <p class="sobre_paragrafo">
+                💻 Olá! Meu nome é <strong>Luan Gabriel Dantas</strong>, sou estudante de Engenharia de Software e
+                desenvolvedor Full Stack em formação, com foco em Back-end utilizando <strong>Java</strong> e
+                <strong>SpringBoot</strong>.
+
+                <br><br>
+
+                🚀 Possuo experiência em projetos web utilizando HTML, CSS, JavaScript,
+                React, SQL, Java e Python.
+
+                <br><br>
+
+                📚 Busco oportunidades para evoluir tecnicamente e contribuir com soluções eficientes.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <h2 class="titulo_secao">Minhas Skills</h2>
+
+        <div class="skills_container">
+
+            <div class="skill">
+                <span>Java</span>
+                <div class="barra">
+                    <div class="progresso java"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Spring Boot</span>
+                <div class="barra">
+                    <div class="progresso spring"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>React</span>
+                <div class="barra">
+                    <div class="progresso react"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="barra">
+                    <div class="progresso js"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+
+        <h2 class="titulo_secao">Meus Projetos</h2>
+
+        <div class="container_projetos">
+
+            <!-- PROJETO 1 -->
+            <div class="card_projeto">
+
+                <img src="img/img_projeto_1.png">
+
+                <div class="card_conteudo">
+
+                    <h3>Tela de Login</h3>
+
+                    <p>
+                        Projeto de uma tela de login responsiva com validação em JavaScript.
+                    </p>
+
+                    <!-- ICONES TECNOLOGIA -->
+                    <div class="tech_icons">
+
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+
+                    </div>
+
+                    <div class="links_projeto">
+
+                        <a href="#" class="btn_deploy">Deploy</a>
+
+                        <a href="https://github.com/LuanGabrielDEV/tela-login" target="_blank" class="btn_github">
+                            <i class="fa-brands fa-github"></i>
+                            Código
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PROJETO 2 -->
+            <div class="card_projeto">
+
+                <img src="img/img_projeto_2.png">
+
+                <div class="card_conteudo">
+
+                    <h3>E-Commerce Brechó</h3>
+
+                    <p>
+                        Projeto utilizando WordPress com layout responsivo.
+                    </p>
+
+                    <div class="tech_icons">
+
+                        <i class="devicon-wordpress-plain colored"></i>
+
+                    </div>
+
+                    <div class="links_projeto">
+
+                        <a href="#" class="btn_deploy">Deploy</a>
+
+                        <a href="https://github.com/LuanGabrielDEV/ecommerce-brecho" target="_blank" class="btn_github">
+                            <i class="fa-brands fa-github"></i>
+                            Código
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PROJETO 3 -->
+            <div class="card_projeto">
+
+                <img src="img/img_projeto_3.png">
+
+                <div class="card_conteudo">
+
+                    <h3>CRUD de Usuários</h3>
+
+                    <p>
+                        Sistema CRUD com Java Spring Boot + MySQL.
+                    </p>
+
+                    <div class="tech_icons">
+
+                        <i class="devicon-java-plain colored"></i>
+                        <i class="devicon-spring-plain colored"></i>
+                        <i class="devicon-mysql-plain colored"></i>
+
+                    </div>
+
+                    <div class="links_projeto">
+
+                        <a href="#" class="btn_deploy">Deploy</a>
+
+                        <a href="https://github.com/LuanGabrielDEV/crud-usuarios" target="_blank" class="btn_github">
+                            <i class="fa-brands fa-github"></i>
+                            Código
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+
+        <h2 class="contatos_titulo">Entre em Contato</h2>
+
+        <form class="contato_form" id="formulario" onsubmit="enviarWhatsApp(event)">
+
+            <div class="grupo_form">
+                <input placeholder="Nome" class="campo_form" id="nome" type="text">
+            </div>
+
+            <div class="grupo_form">
+                <textarea placeholder="Mensagem" class="campo_form" id="mensagem" rows="6"></textarea>
+            </div>
+
+            <button class="botao_form">Enviar WhatsApp</button>
+
+        </form>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="contato.js"></script>
+    <script src="menu.js"></script>
+
+
+
+</body>
+
+</html>
