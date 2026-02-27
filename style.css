@@ -150,6 +150,10 @@ body {
     justify-content: center;
     gap: 6px;
 }
+
+.curriculo i {
+    color: #ff4d4d; /* Um vermelho suave para destacar que é um PDF */
+}
 /* GLOW NEON */
 
 .titulo_principal{
