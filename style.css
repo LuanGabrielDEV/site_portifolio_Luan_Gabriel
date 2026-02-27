@@ -235,6 +235,9 @@ animation:animarSkill 4s forwards;
 from{width:0}
 }
 
+.titulo_principal{
+    text-align: center;
+}
 h1{
     font-size: 3.0rem;
     margin: 20px;
